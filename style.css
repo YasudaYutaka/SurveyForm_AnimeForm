@@ -1,3 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Caveat&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+}
+
 html {
-    
+    font-family: 'Cabin', sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: 3rem auto 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+#survey-form {
+    background-color: blue;
+    margin-top: 1.6rem;
+    padding: 2.5rem;
+    text-align: start;
+}
+
+input {
+    margin-top: 0.45rem;
+    width: 100%;
+    padding: 0.35rem;
+    border-radius: 5px;
+    font-size: 0.7em;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+}
+
+.form-group-r-cb {
+    margin-bottom: 0.2rem;
+}
+
+.form-group-r-cb input {
+    width: auto;
+}
+
+.form-group-r-cb label {
+    font-size: 0.8em;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 0.35rem;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin-top: 0.45rem;
+}
+
+.form-group textarea {
+    margin-top: 0.45rem;
+    width: 100%;
+    max-width: 100%;
+    min-height: 60px;
+    font-size: 0.8em;
+}
+
+button {
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
 }

@@ -11,12 +11,13 @@
 
 <body>
 
-    <h1 id="title">Anime Survey</h1>
-    <p id="description">Thanks for taking time to complete this form</p>
+    <div class="container">
 
-    <div>
-
-        
+        <header>
+            <h1 id="title">Anime Survey</h1>
+            <p id="description">Thanks for taking time to complete this form</p>
+        </header>
+ 
         <form id="survey-form">
 
             <div class="form-group">
@@ -37,6 +38,7 @@
             <div class="form-group">
                 <label for="dropdown">How were you first introduced to anime?</label>
                 <select name="dropdown" id="dropdown">
+                    <option disabled selected>Select</option>
                     <option value="friend">By a friend</option>
                     <option value="family">By a family member</option>
                     <option value="myself">By myself</option>
@@ -45,24 +47,38 @@
 
             <div class="form-group">
                 <p>What is your favorite streaming service?</p>
-                <input type="radio" id="funimation" name="fav-service" value="funimation">
-                <label for="funimation">Funimation</label>
-                <input type="radio" id="netflix" name="fav-service" value="netflix">
-                <label for="netflix">Netlix</label>
-                <input type="radio" id="crunchyroll" name="fav-service" value="crunchyroll">
-                <label for="crunchyroll">Crunchyroll</label>
+                <div class="form-group-r-cb">
+                    <input type="radio" id="funimation" name="fav-service" value="funimation">
+                    <label for="funimation">Funimation</label>
+                </div>
+                <div class="form-group-r-cb">
+                    <input type="radio" id="netflix" name="fav-service" value="netflix">
+                    <label for="netflix">Netlix</label>
+                </div>
+                <div class="form-group-r-cb">
+                    <input type="radio" id="crunchyroll" name="fav-service" value="crunchyroll">
+                    <label for="crunchyroll">Crunchyroll</label>
+                </div>   
             </div>
 
             <div class="form-group">
                 <p>Are you a member of an online community for anime?</p>
-                <input type="checkbox" id="reddit" name="community" value="reddit">
-                <label for="reddit">Reddit</label>
-                <input type="checkbox" id="pinterest" name="pinterest" value="pinterest">
-                <label for="pinterest">Pinterest</label>
-                <input type="checkbox" id="facebook" name="facebook" value="facebook">
-                <label for="facebook">Facebook group</label>
-                <input type="checkbox" id="myanimelist" name="myanimelist" value="myanimelist">
-                <label for="myanimelist">MyAnimeList</label>
+                <div class="form-group-r-cb">
+                    <input type="checkbox" id="reddit" name="community" value="reddit">
+                    <label for="reddit">Reddit</label>
+                </div>
+                <div class="form-group-r-cb">
+                    <input type="checkbox" id="pinterest" name="pinterest" value="pinterest">
+                    <label for="pinterest">Pinterest</label>
+                </div>
+                <div class="form-group-r-cb">
+                    <input type="checkbox" id="facebook" name="facebook" value="facebook">
+                    <label for="facebook">Facebook group</label>
+                </div>
+                <div class="form-group-r-cb">
+                    <input type="checkbox" id="myanimelist" name="myanimelist" value="myanimelist">
+                    <label for="myanimelist">MyAnimeList</label>
+                </div>
             </div>
 
             <div class="form-group">
