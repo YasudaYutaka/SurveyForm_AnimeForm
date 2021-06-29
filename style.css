@@ -30,6 +30,7 @@ h1 {
 
 header p {
     font-size: 1.5em;
+    font-weight: 100;
 }
 
 #survey-form {
@@ -99,4 +100,16 @@ input {
     cursor: pointer;
     color: white;
     background-color: #ff5900;
+}
+
+@media (max-width: 768px){
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 453px) {
+    #description {
+        font-size: 1.5em;
+    }
 }
